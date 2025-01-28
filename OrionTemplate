@@ -2,11 +2,11 @@
 
 -- go to https://github.com/jensonhirst/Orion/blob/main/Documentation.md for more things
 
--- do not change these
+-- do not change this
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "Title of the library", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Test Window 1", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 -- tab
 
